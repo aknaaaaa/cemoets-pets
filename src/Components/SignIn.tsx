@@ -1,6 +1,6 @@
 function SignIn (){
     return(
-        <section className="min-h-screen flex items-center justify-center font-mono bg-sky-200">
+        <section className="min-h-screen flex items-center justify-center font-poppins  bg-sky-200">
 
 
         <div className="flex shadow-2xl">
