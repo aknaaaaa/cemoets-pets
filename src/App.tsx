@@ -1,9 +1,9 @@
-import './App.css'
+import SignIn from './Components/SignIn'
 
 function App() {
 
-  return (
-    <h1 className="text-3xl font-bold underline">Cemoet Pets</h1>
+  return ( 
+    <SignIn/>
   )
 }
 
