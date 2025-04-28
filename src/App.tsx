@@ -5,15 +5,16 @@ import Cart from "./Components/Cart";
 
 function App() {
   return (
-    <div className="flex bg-gray-100 min-h-screen">
+    <div className="flex min-h-screen">
+      {/* Sidebar */}
       <Sidebar />
-      <main className="flex-1 ml-16 md:ml-60 transition-all duration-300">
+
+      {/* Cart / Main Content */}
+      <main className="flex-1 p-4 transition-all duration-300">
         <Cart />
       </main>
     </div>
   );
 }
 
-
 export default App;
-
