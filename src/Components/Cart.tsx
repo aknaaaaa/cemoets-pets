@@ -7,12 +7,13 @@ function Cart() {
     { id: 3, name: "Whiskas For Koy", price: 50000, icons: Whiskas1 },
     { id: 4, name: "Whiskas For Boy", price: 45000, icons: Whiskas1 },
   ];
+  const text = "Product";
 
   return (
     <div className="p-4 md:pl-6 min-h-screen ml-0 md:ml-[sidebar-width] transition-all duration-300">
       {/* Tambahkan margin left untuk memberi jarak dari sidebar */}
       <h1 className="text-xl md:text-2xl font-bold mb-4 md:mb-6 ml-2">
-        Product
+        {text.toUpperCase()}
       </h1>
 
       {/* Responsive Grid */}
